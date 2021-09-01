@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
+}
+.fundo-body{
+    background-color: #E6E6E6;
+}
+.fundo-header{
+    background-color:  #ED9F9F;
+}
+.fundo-nav{
+    background-color: #F36FB8;
+}
+.fundo-article{
+    background-color:  #A1EEAA;
+}
+.fundo-aside{
+    background-color:  #A0A0EA;
+}
+.fundo-aside-section{
+    background-color:  #6FBAF3;
+}
+.fundo-footer{
+    background-color:  #CACB7F;
+}
