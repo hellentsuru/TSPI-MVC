@@ -3,13 +3,14 @@
     margin: 0;
     padding: 0;
 }
-a{
+nav a{
     text-decoration: none;
     color: black;
 }
-a:hover{
+nav a:hover{
     color: black;
 }
+
 .fundo-body{
     background-color: #E6E6E6;
 }
