@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" media="screen" href="../static/css/estilos.css"
+        th:href="@{/css/estilos.css}">
+    <title>Atividade 5 - Layout com thymeleaf</title>
+</head>
+
+<body>
+    <nav th:insert="fragments/navbar :: navbar">
+
+    </nav>
+    <main>
+        <div class="container d-flex">
+            <div class="row m-1 px-2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores possimus laudantium,
+                    odio ex sapiente, iste suscipit unde temporibus fugiat, explicabo saepe dolorem architecto
+                    accusantium adipisci quidem voluptas a itaque?
+                    Voluptates consectetur mollitia totam saepe corrupti aliquid quae architecto cumque tempore
+                    doloremque error optio rerum exercitationem, libero repellendus eveniet repellat reprehenderit
+                    expedita vitae minima voluptas beatae. Voluptatibus debitis eos architecto.
+                    Voluptatem aliquam quibusdam voluptate impedit? Distinctio ipsum sit nostrum, qui at fugiat natus
+                    quod accusamus nesciunt molestiae quae blanditiis aliquid, illo voluptatem numquam a omnis! Unde
+                    accusamus ratione ullam debitis.
+                    Praesentium corrupti fugit ducimus, dolorem sint, amet neque minus nisi recusandae. 
+                </p>
+            </div>
+            <div class="row m-1 px-2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores possimus laudantium,
+                    odio ex sapiente, iste suscipit unde temporibus fugiat, explicabo saepe dolorem architecto
+                    accusantium adipisci quidem voluptas a itaque?
+                    Voluptates consectetur mollitia totam saepe corrupti aliquid quae architecto cumque tempore
+                    doloremque error optio rerum exercitationem, libero repellendus eveniet repellat reprehenderit
+                    expedita vitae minima voluptas beatae. Voluptatibus debitis eos architecto.
+                    Voluptatem aliquam quibusdam voluptate impedit? Distinctio ipsum sit nostrum, qui at fugiat natus
+                    quod accusamus nesciunt molestiae quae blanditiis aliquid, illo voluptatem numquam a omnis! Unde
+                    accusamus ratione ullam debitis.
+                    Praesentium corrupti fugit ducimus, dolorem sint, amet neque minus nisi recusandae. 
+                </p>
+            </div>
+            <div class="row m-1 px-2">
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium asperiores possimus laudantium,
+                    odio ex sapiente, iste suscipit unde temporibus fugiat, explicabo saepe dolorem architecto
+                    accusantium adipisci quidem voluptas a itaque?
+                    Voluptates consectetur mollitia totam saepe corrupti aliquid quae architecto cumque tempore
+                    doloremque error optio rerum exercitationem, libero repellendus eveniet repellat reprehenderit
+                    expedita vitae minima voluptas beatae. Voluptatibus debitis eos architecto.
+                    Voluptatem aliquam quibusdam voluptate impedit? Distinctio ipsum sit nostrum, qui at fugiat natus
+                    quod accusamus nesciunt molestiae quae blanditiis aliquid, illo voluptatem numquam a omnis! Unde
+                    accusamus ratione ullam debitis.
+                    Praesentium corrupti fugit ducimus, dolorem sint, amet neque minus nisi recusandae. 
+                </p>
+            </div>
+        </div>
+    </main>
+    <footer th:insert="fragments/rodape :: rodape" class="">
+        <h3>Footer</h3>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
